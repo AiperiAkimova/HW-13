@@ -1,0 +1,37 @@
+.container{
+    width: 1200px;
+    height: 1100px;
+    background-color: rgba(241, 179, 168, 0.767);
+    margin: 0 auto;
+}
+.card{
+    width: 1200px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; 
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    margin-top: 40px;
+    position: relative;
+    
+}
+.id{
+    width: 35px;
+    height: 25px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.text{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin: 30px auto;
+}
